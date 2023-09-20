@@ -1,0 +1,21 @@
+<!Doctype html>
+<html>
+    <head>
+            <script>
+                function details() {
+                    var fname = document.getElementbyId("firstname").value;                                                                                                                                                                           var lname = document.getElementbyId("lirstname").value;
+                    var person = { fname , lname } // make object
+                    document.getElementbyId("name").textcontent = person.fname +
+ "   " + person.lname
+                       //  get the value from object and property
+                       // person is object and fname is property
+                  }
+              </script>
+           </head>
+         <body>
+               first name : <input id="firstname"/> <br>
+               last name : <input id=" lastname"/> <br>
+               <button onclick="details()" > submit</button>
+              <div id="name">
+           </body>
+         </html>
